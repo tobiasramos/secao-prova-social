@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&display=swap');
+
+body {
+    background-color: hsl(300, 24%, 96%);
+    font-family: 'Karla', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* ---- Container ---*/
+.container {
+    width: 1010px;
+    height: 600px;
+    margin: 70px auto;
+    background-color: hsl(0, 0%, 100%);
+
+    background-image: url('../img/bg-pattern-top-desktop.svg'), url('../img/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat;
+}
+
+/* ---- Pós Container ---*/
+.initial {
+    display: flex;
+    align-items: center;
+}
+
+/* ---- Texto ---*/
+.text {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.text .title {
+    color: hsl(300, 43%, 22%);
+    width: 190px;
+
+}
+
+.text .paragraph {
+    width: 390px;
+    margin-top: 10px;
+    color: #A9A9A9;
+}
+
+
+/* ---- Evaluation ---*/
+.evaluation {
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+}
+
+.stars span {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.star-2 {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.star-3 {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.evaluation .stars p{
+    color: hsl(300, 43%, 22%);
+}
+
+
+/* ---- Card ---*/
+.cards {
+    display: flex;
+    margin-top: 85px;
+    margin-left: 50px;
+}
+
+.cards .card {
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.cards img {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.card .profile img {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.card .dados {
+    margin-top: 23px;
+}
+
+.card .dados,
+.name,
+.function {
+    font-size: 12px;
+}
+
+.card .description {
+    font-size: 14px;
+    margin: 20px auto;
+    width: 240px;
+}
+
+.card-2 {
+    margin-top: 15px;
+    margin: 15px;
+}
+
+.card-3 {
+    margin-top: 30px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.dados {
+    display: inline;
+    margin-left: 15px;
+}
+
+.dados p {
+    margin-top: 5px;
+}
+
+.dados .name,
+.description {
+    color: hsl(0, 0%, 100%);
+}
+
+.dados .function {
+    color: hsl(333, 80%, 67%);
+}
